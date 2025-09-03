@@ -1,4 +1,8 @@
-body { background-color: #f8f9fa; }
+body { 
+    background-color: #f8f9fa; 
+    padding: 0;
+    margin: 0;
+}
 .navbar { background-color: #fdf2e9; }
 .mega-sale { 
     background-color: #826300;
@@ -26,7 +30,7 @@ body { background-color: #f8f9fa; }
 }
 
 .sidebar { 
-    /* margin-top: -29px; */
+    
     background-color: #fff; 
     padding: 15px; 
     border-right: 1px solid #ddd; 
@@ -46,13 +50,18 @@ body { background-color: #f8f9fa; }
     height: 14px !important;
     
 }
+.line-one{
+    border-top: 1px solid #ddd;
+    padding-top: 12px;
+    width: 240px;
+}
 .sidebar::after{
     content: '';
     position: absolute;
     top: -4px;
     left: 115px;
     height: 60px;
-    border-right: 1px solid #ddd
+    /* border-right: 1px solid #7c4444 */
 }
 .arrow-filter i{
     text-align: end;
@@ -73,22 +82,65 @@ body { background-color: #f8f9fa; }
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 .pagination {
-        justify-content: center; 
+    justify-content: center; 
 }
 .page-link {
-        color: black; 
-        border: none; 
-        margin: 0 3px; 
+    color: black; 
+    border: none; 
+    margin: 0 3px; 
 }
 .page-item.disabled .page-link {
-        color: #ccc; 
-        pointer-events: none;
-        background: transparent;
+    color: #ccc; 
+    pointer-events: none;
+    background: transparent;
 }
 .page-link:hover {
-        background-color: #f2f2f2; 
-        border-radius: 4px;
+    background-color: #f2f2f2; 
+    border-radius: 4px;
 }
 .first-footer{
     padding-right: 102px;
+}
+@media (max-width: 576px) {
+    .line-one{
+        display: none;
+    }
+    #products-container .col-6 {
+        padding: 8px 4px ; 
+        gap: 4px;
+    }
+    .product-card { 
+        width: 180px ;
+        height: 200px;
+        margin-right: 230px;
+    /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+    }
+    .product-card img { 
+        height: 200px; 
+        object-fit: cover; 
+    }
+    .card-title {
+        font-size: 13px;
+    }
+    .navbar img {
+        height: 100%;
+        width: 131px;
+        margin-top: -38px;
+    }
+    .navbar-toggler{
+        margin-top: -24px;
+    }
+    .navbar-collapse{
+        height: fit-content;
+        z-index: 1;
+        margin-top: -1px;
+        font-size: 12px;
+        transition: transform 0.3s ease;
+    }
+    .header-icons{
+        margin-top: -42px;
+        padding: 14px;
+        position: relative;
+        z-index: 1;
+    }
 }
