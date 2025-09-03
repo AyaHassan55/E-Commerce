@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Travel Hoodie",
+        "price": 100,
+        "image": "imgs/product1.png"
+    },
+    {
+        "id": 2,
+        "name": "Terracotta Overshirt",
+        "price": 150,
+        "image": "imgs/product2.png"
+    },
+    {
+        "id": 3,
+        "name": "Roxie Red Overshirt",
+        "price": 200,
+        "image": "imgs/product3.png"
+    },
+    {
+        "id": 4,
+        "name": "Checked Formalshirt",
+        "price": 200,
+        "image": "imgs/product4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Travel Hoodie",
+        "price": 200,
+        "image": "imgs/product5.png"
+    },
+    {
+        "id": 6,
+        "name": "Terracotta Overshirt",
+        "price": 200,
+        "image": "imgs/Rectangle 6.png"
+    },
+    {
+        "id": 7,
+        "name": "Roxie Red Overshirt",
+        "price": 200,
+        "image": "imgs/product7.png"
+    },
+    {
+        "id": 8,
+        "name": "Checked Formalshirt",
+        "price": 200,
+        "image": "imgs/product8.png"
+    },
+    {
+        "id": 9,
+        "name": "Travel Hoodie",
+        "price": 200,
+        "image": "imgs/product9.png"
+    },
+    {
+        "id": 10,
+        "name": "Terracotta Overshirt",
+        "price": 200,
+        "image": "imgs/product10.png"
+    },
+    {
+        "id": 11,
+        "name": "Roxie Red Overshirt",
+        "price": 200,
+        "image": "imgs/product11.png"
+    },
+    {
+        "id": 12,
+        "name": "Checked Formalshirt",
+        "price": 200,
+        "image": "imgs/product12.png"
+    }
+]
