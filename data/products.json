@@ -3,72 +3,96 @@
         "id": 1,
         "name": "Travel Hoodie",
         "price": 100,
+        "category": "Hoodie",
+        "cloth": "Knited",
         "image": "imgs/product1.png"
     },
     {
         "id": 2,
         "name": "Terracotta Overshirt",
         "price": 150,
+        "category": "Over Shirts",
+        "cloth": "Flor",
         "image": "imgs/product2.png"
     },
     {
         "id": 3,
-        "name": "Roxie Red Overshirt",
+        "name": "Roxie Red Casual Shirts",
         "price": 200,
+        "category": "Casual Shirts",
+        "cloth": "Weave",
         "image": "imgs/product3.png"
     },
     {
         "id": 4,
         "name": "Checked Formalshirt",
         "price": 200,
+        "category": "Formal Shirts",
+        "cloth": "Cotton",
         "image": "imgs/product4.jpg"
     },
     {
         "id": 5,
-        "name": "Travel Hoodie",
+        "name": "Green Blazer",
         "price": 200,
+        "category": "Blazers",
+        "cloth": "Linen",
         "image": "imgs/product5.png"
     },
     {
         "id": 6,
-        "name": "Terracotta Overshirt",
+        "name": "Green Pant",
         "price": 200,
+        "category": "Pants and Trousers",
+        "cloth": "Flor",
         "image": "imgs/Rectangle 6.png"
     },
     {
         "id": 7,
-        "name": "Roxie Red Overshirt",
+        "name": "Suit",
         "price": 200,
+        "category": "Suits",
+        "cloth": "Weave",
         "image": "imgs/product7.png"
     },
     {
         "id": 8,
-        "name": "Checked Formalshirt",
+        "name": "Beige Pant",
         "price": 200,
+        "category": "Pants and Trousers",
+        "cloth": "Cotton",
         "image": "imgs/product8.png"
     },
     {
         "id": 9,
-        "name": "Travel Hoodie",
+        "name": "Brown Blazer",
         "price": 200,
+        "category": "Blazers",
+        "cloth": "Linen",
         "image": "imgs/product9.png"
     },
     {
         "id": 10,
-        "name": "Terracotta Overshirt",
+        "name": "gray pant",
         "price": 200,
+        "category": "Pants and Trousers",
+        "cloth": "Knited",
         "image": "imgs/product10.png"
     },
     {
         "id": 11,
-        "name": "Roxie Red Overshirt",
+        "name": "Pink Blazer",
         "price": 200,
+        "category": "Blazers",
+        "cloth": "Flor",
         "image": "imgs/product11.png"
     },
     {
         "id": 12,
-        "name": "Checked Formalshirt",
+        "name": "Gray Blazer",
         "price": 200,
+        "category": "Blazers",
+        "cloth": "Weave",
         "image": "imgs/product12.png"
     }
 ]
