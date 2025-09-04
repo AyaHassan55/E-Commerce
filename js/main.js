@@ -11,7 +11,7 @@ function displayProducts(products) {
 
     products.forEach(product => {
         const col = document.createElement("div");
-        col.className = "col-6 col-md-6 col-lg-3 mb-4"; 
+        col.className = "col-6 col-md-4 col-lg-3 mb-4"; 
         col.innerHTML = `
     <div class="card product-card position-relative">
         <img src="${product.image}" class="card-img-top" alt="${product.name}">

@@ -134,14 +134,14 @@ body {
     }
     .navbar img {
         height: 100%;
-        width: 131px;
-        margin-top: -38px;
+        width: 119px;
+        margin-top: -29px;
     }
     .navbar-toggler{
         margin-top: -24px;
     }
-    .navbar-collapse{
-        height: fit-content;
+    .navbar-collapse ul{
+        height: fit-content !important;
         z-index: 1;
         margin-top: -1px;
         font-size: 12px;
@@ -153,4 +153,24 @@ body {
         position: relative;
         z-index: 1;
     }
+    #cart-count {
+    position: absolute;
+    top: 1px;
+    right: 286px;
+    font-size: 10px;
+}
+
+
+}
+
+/* tablet */
+@media (max-width:991px) {
+    /* #products-container .col-md-4 {
+        justify-content: space-between;
+        display: flex;
+    }
+    .product-card { 
+        width: 200px ;
+        height: 250px;
+    } */
 }
