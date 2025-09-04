@@ -28,7 +28,11 @@ body {
     color: black;
     font-weight: bold;
 }
-
+#cart-count{
+    position:absolute;
+    top: 12px;
+    right: 150px;
+}
 .sidebar { 
     
     background-color: #fff; 
@@ -76,11 +80,17 @@ body {
     width: 230px ;
     height: 300px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    position: relative;
+    cursor: pointer;
+
 }
 .product-card:hover{
     transform: translateY(-10px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
+
+
 .pagination {
     justify-content: center; 
 }
