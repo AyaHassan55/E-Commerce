@@ -36,16 +36,30 @@
       <!-- Right Icons -->
       <div class="header-icons">
         <a href="#" class="me-3"><i class="fa-solid fa-user"></i></a>
-        <a class="" href="#">
+        <!-- <a class="" href="#"> -->
+        <a class="" href="#" data-bs-toggle="offcanvas" data-bs-target="#cartSidebar">  
             <i class="fa fa-shopping-cart fa-lg"></i>
                 <span id="cart-count" class="badge rounded-pill bg-danger">0</span>
         </a>
-        <!-- <a href="#" class="me-3"><i class="fa-solid fa-cart-shopping"></i></a> -->
+        
         <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
       </div>
     </div>
   </div>
 </nav>
+    <!-- offcansive for products in card -->
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="cartSidebar">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title">🛒 سلة المشتريات</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul id="cart-items" class="list-group mb-3"></ul>
+    <h6 class="fw-bold">الإجمالي: ₹ <span id="cart-total">0</span></h6>
+  </div>
+</div>
+
 
 <!-- زرار الفلتر يظهر في الموبايل فقط -->
 <div class="container mt-3 d-lg-none d-block">
